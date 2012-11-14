@@ -1,0 +1,269 @@
+Version 1.0.1
+	- Changed "MOre" to "More" from the blog page
+	- Removed style selector
+	- Added "Blog" to breadcrumbs for the blog page
+	- Made the post thumbnails height to be flexible with the "Medium Image Layout"
+	- Added color scheme option in backend
+	- Added option to disable footer widgets and footer
+	- Added option to add a favicon
+	- Added "open" option to toggle shortcode to keep it open by default
+
+	Files Changes:
+		- Edited index.php
+		- Edited footer.php
+		- Edited framework/custom_functions.php
+		- Edited css/all.css
+		- Added js/options-custom.js
+		- Edited functions.php
+		- Edited options.php
+		- Edited shortcodes.php
+		- Edited js/main.js
+
+
+Version 1.0.2
+	- Fixed a page bug options which happened when there were no slider groups created
+	- Fixed the FlexSlider plugin installation notice nags
+	
+	File Changes:
+		- Edited framework/metaboxes/page_options.php
+		- Edited functions.php
+
+Version 1.0.3
+	- Made dropcap color to change to primary color
+	- Fixed submit button on contact form not changing to color change in theme options
+	- Made flickr widget(s) work properly with complicated flickr usernames
+	- Changed the font name of Museo Slab font in all.css file to reflect exactly with the font name downloaded from fontspring
+
+	File Changes:
+		- Edited header.php
+		- Edited widgets/flickr-widget.php and widgets/flickr_footer_widget.php
+		- Edited css/all.css
+
+Version 1.0.4
+	- Some code changes to page options box
+	- Fixed a typo in portfolio one column for "All" link
+	- Added initial and maximum scale so that the responsive site works well on iphone horizontally
+	- Fixed IE issues
+	- Fixed contact form unable to send email issue
+	- Made the skills needed and categories optional
+	- Made project description optional for one column portfolio
+	- Added an option to control the testimonials slider speed
+	- Added an option to enable or disable responsiveness
+	
+	File Changes:
+		- Added css/ie.css
+		- Added css/media.css
+		- Added search.php
+		- Edited framework/views/metaboxes/page_options.php
+		- Edited css/all.css
+		- Edited portfolio-one-column.php
+		- Edited header.php
+		- Edited shortcodes.php
+		- Edited single-avada_portfolio.php
+		- Edited single.php
+		- Edited contact.php
+		- Edited index.php
+		- Edited options.php
+
+
+Version 1.0.5
+	- Fixed the search page
+	- Added an option to enable or disable image rollovers
+	- Added an option to disable posts slideshow
+	- Fixed the responsiveness disabling bug
+	- Disabled prettyphoto on mobile sites
+	- Added an option in theme options to add custom CSS
+	- Fixed bug with contact error and success msgs
+	
+	File Changes:
+		- Added search.php
+		- Edited header.php
+		- Edited js/main.js
+		- Edited options.php
+		- Edited archive.php
+		- Edited index.php
+		- Edited single.php
+		- Edited all.css
+		- Edited shortcodes.php
+		- Edited js/modernizr.js
+		- Edited contact.php
+
+Version 1.0.6
+	- Added an example child theme in the themeforest package
+	- SEO optimization
+	- Added support for multiple tabs
+	- Added missing translations
+	- Added a theme option to change contact page zoom level
+	- Added a theme option to change page-title of Blog
+	- Added support to add slider to the main blog index page
+	- Added support to add slider to single post pages
+	- Added all shortcodes to the post editor
+	- Fixed the tabs widget options
+	- Added an option to add one custom icon to the footer
+	- Added a theme option to add analytics code
+	- Added translation support to breadcrumbs
+	- Regenerated the en_US.mo and en_US.po translation file to support missing words
+
+	File Changes:
+		- Edited style.css
+		- Edited header.php
+		- Edited css/all.css
+		- Edited css/media.css
+		- Edited js/main.js
+		- Edited single-avada_portfolio.php
+		- Edited single.php
+		- Edited index.php
+		- Edited options.php
+		- Edited contact.php
+		- Edited framework/metaboxes.php
+		- Edited framework/custom_functions.php
+		- Edited framework/views/metaboxes/post_options.php
+		- Edited shortcodes.php
+		- Edited tinymce/customcodes.js
+		- Added tinymce/tagline-box.png
+		- Added tinymce/content-boxes.png
+		- Added tinymce/recent-posts.png
+		- Edited widgets/tabs_widget.php
+		- Edited footer.php
+		- Edited languages/en_US.mo and languages/en_US.po
+
+Version 1.0.7
+	- Updated documentation
+	- Fixed featured images breaking the normal wp pages font sizes on IE
+	- Fixed the color scheme selector
+	- Made alert boxes / notices responsive
+	- Fixed archive / categories sidebar list
+	- Added unlimited portfolio option, when creating a page with portfolio template, select a category or leave bank for all categories.
+	-  Edited header.php to fix a typo on viewport meta tag
+	- Fixed the contact form textarea responsiveness
+	- Added parent page link to side navigation
+	- Fixed the fallback image browse button
+	- Made contact form map responsive
+	
+	File Changes:
+		- Edited style.css (version number change)
+		- Edited page.php
+		- Added js/options-custom.js
+		- Edited functions.php
+		- Edited all.css
+		- Edited media.css
+		- Edited framework/views/metaboxes/page_options.php
+		- Edited portfolio-one-column.php
+		- Edited portfolio-two-column.php
+		- Edited portfolio-three-column.php
+		- Edited portfolio-four-column.php
+		- Edited header.php
+		- Edited side-navigation.php
+		- Edited framework/metaboxes.php
+		- Edited contact.php
+
+Version 1.0.8
+	- Added the missing lightbox icon to porfolio three column
+	- Fixed the bug where you could not select all categories to be shown on portfolio page template
+	- Fixed the bug where pattern was not showing up correctly
+
+	File Changes:
+		- Edited style.css (version number only)
+		- Edited portfolio-three-column.php
+		- Edited framework/views/metaboxes/page_options.php
+		- Edited css/all.css
+		- Edited header.php
+		- Edited options.php
+
+Version 1.0.9
+	- Fixed side navigation styling and functionality
+	- Improved breadcrumbs
+
+	File Changes:
+		- Edited style.css (version number change)
+		- Edited css/all.css
+		- Edited side-navigation.php
+		- Edited functions/custom_functions.php
+
+
+Version 1.0.9.1
+	- Fixed recent posts shortcode linking directly to images instead of post
+	- Fixed the zip file so you could upload the theme directly from wp-admin
+	- Fixed child theme so that color scheme options work correctly
+
+	File Changes:
+		- Edited avada.zip
+		- Edited style.css (version number change)
+		- Edited shortcodes.php
+		- Added js folder to the child theme
+
+Version 1.1
+ 	- Updated wooslider plugin (flexslider WP). The new menu is called "Slideshows".
+ 	- Made h1-h6 work within the title div
+ 	- Added missing translation
+ 	- Updated PO/MO file
+ 	- Fixed the page title background option
+ 	- Added an option to add/remove page title bar
+ 	- Added an option to add youtube icon to the footer and social links widget
+ 	- Added an option to add pinterst icon to the footer and social links widget
+ 	- Fixed an issue where pagination color will not change with the color options
+ 	- Changed logo link to show site url instead of wp url
+ 	- Added an option to change number of slides on flexslider in theme options
+ 	- Made the images slide effect smoother
+ 	- Made posts image slideshow option enable / disable posts images slideshow from single post page
+ 	- Added an option in theme options to change the number of images in posts slideshow
+ 	- Added custom sidebar code to side navigation
+ 	- Fixed the facebook like box widget
+ 	- Made the layout fixed width when responsiveness is set to OFF
+
+	File Changes:
+		- Edited style.css (version number change)
+		- Edited framework/plugins/wooslider.zip
+		- Edited css/all.css
+		- Edited framework/custom_functions.php
+		- Edited options.php
+		- Edited header.php
+		- Edited footer.php
+		- Edited widgets/social_links.php
+		- Added images/youtube.png
+		- Added images/pinterest.png
+		- Edited single.php
+		- Edited archive.php
+		- Edited index.php
+		- Edited search.php
+		- Edited side-navigation.php
+		- Edited widgets/facebook-like-widget.php
+		- Edited shortcodes.php
+
+
+Version 1.1.1
+	- Fixed some PHP errors in shortcodes
+	- Fixed tabset not working properly in portfolio page
+	- Fixed page title not working with selected google font issue
+	- Made page title and breadcrumbs work for longer page title and breadcrumbs
+	- Fixed the layerslider pagination not showing up on IE
+	- Updated flexslider javascript
+	- Made footer widgets work with new twitter API
+	- Fixed wooslider to work on IE8 and IE9 along with modern browers properly
+	- Made portfolio tabs work responsively
+	- Improved image rollovers
+	- Typo for post shortcode option fixed
+	- Fixed side navigation no-sidebar option and added margin if a sidebar is added to the side navigation pages
+	- Updated wooslider plugin, if you are updating, uninstall it and reinstall the plugin.
+	- Made plugin notices softer and added ability to enable / disable plugins while on Avada.
+	
+	File Changes:
+		- Edited style.css (version number change)
+		- Edited header.php
+		- Edited shortcodes.php
+		- Edited js/main.js
+		- Edited css/all.css
+		- Edited css/media.css
+		- Updated js/jquery.flexslider-min.js
+		- Updated js/jtwt.js
+		- Edited css/flexslider.css
+		- Edited single.php
+		- Edited side-navigation.php
+		- Updated framework/plugins/wooslider.zip
+		- Edited functions.php
+
+Version 1.1.2
+	- Fixed twitter date link
+	
+	File Changes:
+		- Edited js/jtwt.js
