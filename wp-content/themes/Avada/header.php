@@ -321,7 +321,12 @@
 			<nav id="nav" class="nav-holder">
 				<?php wp_nav_menu(array('theme_location' => 'main_navigation', 'depth' => 3, 'container' => false, 'menu_id' => 'nav')); ?>
 			</nav>
+			
+			<div id="tagline" style="clear:both;padding-top:5px;">
+				<h1><?php bloginfo('description') ?></h1>
+			</div>
 		</div>
+		
 	</header>
 	<?php
 	// Layer Slider
