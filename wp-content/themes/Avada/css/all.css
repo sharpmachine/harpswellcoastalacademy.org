@@ -25,7 +25,7 @@ body {
 	color:#747474;
 	min-width:320px;
 	-webkit-text-size-adjust:100%;
-	font:13px/20px 'PTSansRegular', Arial, Helvetica, sans-serif;
+	font:16px/22px 'PTSansRegular', Arial, Helvetica, sans-serif;
 	background:#fff;
 }
 img {
@@ -1658,13 +1658,13 @@ h5.toggle.active + .toggle-content{
 	font-weight:normal;
 }
 .post-content h4{
-	font-size:13px !important;
+	font-size:16px !important;
 }
 .post-content h5{
-	font-size:12px !important;
+	font-size:15px !important;
 }
 .post-content h6{
-	font-size:11px !important;
+	font-size:14px !important;
 }
 /* Button */
 .buttons a{
