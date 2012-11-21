@@ -108,5 +108,5 @@ if(isset($_POST['submit'])) {
 		</div>
 		<?php endwhile; ?>
 	</div>
-	<!--<div id="sidebar" style="<?php echo $sidebar_css; ?>"><?php generated_dynamic_sidebar(); ?></div>-->
+	<div id="sidebar" style="<?php echo $sidebar_css; ?>"><?php generated_dynamic_sidebar(); ?></div>
 <?php get_footer(); ?>

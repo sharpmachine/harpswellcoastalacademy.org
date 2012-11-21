@@ -40,5 +40,5 @@ get_header(); ?>
 			<?php endwhile; ?>
 		</div>
 	</div>
-	<!--<div id="sidebar"><?php generated_dynamic_sidebar(); ?></div>-->
+	<div id="sidebar"><?php generated_dynamic_sidebar(); ?></div>
 <?php get_footer(); ?>
