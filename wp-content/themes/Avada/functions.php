@@ -306,3 +306,8 @@ function pyre_SearchFilter($query) {
 	return $query;
 }
 add_filter('pre_get_posts','pyre_SearchFilter');
+
+add_filter( 'excerpt_length', 'custom_excerpt_length');
+function custom_excerpt_length() {
+	return 83;
+}

@@ -280,8 +280,8 @@
 	<?php endif; ?>
 	<?php if(of_get_option('headings_font', 'Antic Slab') != 'museo'): ?>
 	#nav,
-	#main .reading-box h2,
-	#main h2,
+	#main .reading-box h3,
+	#main h3,
 	.page-title h1,
 	.image .image-extras .image-extras-content h3,
 	#main .post h2,

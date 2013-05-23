@@ -11,6 +11,7 @@
 	<div id="content" style="<?php echo $content_css; ?>">
 		<?php while(have_posts()): the_post(); ?>
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<?php if(of_get_option('blog_style', 'large') == 'large'): ?>
 			<?php
 			$args = array(
@@ -147,9 +148,8 @@
 			</div>
 			<?php endif; ?>
 			<?php endif; ?>
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<div class="post-content">
-				<?php the_content(''); ?>
+				<?php the_excerpt(''); ?>
 			</div>
 			<?php if(of_get_option('post_meta', 'yes') == 'yes'): ?>
 			<div class="meta-info">
